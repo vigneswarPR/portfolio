@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -155,7 +154,7 @@ export default function Home() {
         transition={{ duration: 0.8, delay: 1.2 }}
       >
         <h2 className="text-3xl font-bold mb-4">Contact</h2>
-        <p className="text-lg text-foreground/80">Let's connect! Email me at <a href="mailto:vigneswar.pr2022@vitstudent.ac.in" className="text-blue-500 underline">vigneswar.pr2022@vitstudent.ac.in</a> or call <a href="tel:+916380128342" className="text-blue-500 underline">+91 6380128342</a></p>
+        <p className="text-lg text-foreground/80">Let&apos;s connect! Email me at <a href="mailto:vigneswar.pr2022@vitstudent.ac.in" className="text-blue-500 underline">vigneswar.pr2022@vitstudent.ac.in</a> or call <a href="tel:+916380128342" className="text-blue-500 underline">+91 6380128342</a></p>
       </motion.section>
     </div>
   );
