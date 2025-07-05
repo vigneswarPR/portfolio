@@ -50,6 +50,12 @@ export default function Home() {
               <li>Spearheaded automation initiatives by leveraging AWS services and generative AI to streamline operational workflows.</li>
               <li>Collaborated cross-functionally with team leads and stakeholders to coordinate deliverables, facilitate communication, and ensure high-quality output through meticulous content review and organization.</li>
             </ul>
+            <h4 className="font-semibold text-xl mb-1">Full Stack and AI Intern, AraiLabs.ai</h4>
+            <span className="text-sm text-foreground/60">Jul 2025 - Present</span>
+            <ul className="list-disc ml-6 mt-2 text-foreground/80">
+              <li>Building Magic lamp (A Flagship AI powered video generator)</li>
+              
+            </ul>
           </div>
         </div>
       </motion.section>
