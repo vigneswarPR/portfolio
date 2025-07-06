@@ -10,6 +10,9 @@ export default function Home() {
   // Parallax effects
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
+  
+  // Suppress unused variable warning for textY (used for potential future parallax effects)
+  void textY;
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -474,7 +477,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            Let's Connect
+        <h2 className="text-3xl font-bold mb-4 text-center">Let&apos;s Connect</h2>
           </motion.h2>
           
           <motion.p
@@ -484,7 +487,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Ready to build something amazing together?
+                          Ready to build something amazing together?
           </motion.p>
           
           <motion.div
